@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/green-audio-player.min.css" />
+    <script src="js/green-audio-player.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new GreenAudioPlayer(".example");
+      });
+    </script>
+  </head>
+  <body>
+    <div class="example">
+      <audio crossorigin>
+        <source
+          src="audio/cwa-innovator-spotlight-india-johnson-of-ua-vistas.m4a"
+          type="audio/mpeg"
+        />
+      </audio>
+    </div>
+  </body>
+</html>
